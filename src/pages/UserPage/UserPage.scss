@@ -1,0 +1,39 @@
+.userpage{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    background-color: #F6F6F6;
+    
+    .header-container{
+        padding-top: 50px;
+        display: flex;
+        justify-content: space-between;
+
+        h1{
+            font-weight: bolder;
+            font-size: 30px;
+            color: #383548;
+        }
+
+        .button-add{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            font-size: 18px;
+            padding: 5px 10px;
+            background-color: #383548;
+            color: #fcedcc;
+            border-radius: 5px;
+            cursor: pointer;
+
+            &:hover{
+                font-weight: bold;
+                padding: 8px 15px;
+            }
+        }
+    }
+
+}

@@ -1,0 +1,56 @@
+.login {
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    text-align: center;
+    border-radius: 15px;
+    padding: 70px 50px;
+    background: rgba(138, 138, 138, 0.6);
+    font-size: 18px;
+
+    span{
+        color: #383548;
+
+    }
+    
+    button{
+        font-size: 16px;
+        border-radius: 8px;
+        padding: 14px 22px;
+        border: none;
+        font-weight: bolder;
+        background-color: #2898ee;
+        color:#F6F6F6;
+        cursor: pointer;
+        
+        &:hover{
+            background-color: #107acc;
+        }
+    }
+
+    .form-login{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+        
+        input{
+            font-size: 16px;
+            border-radius: 8px;
+            padding: 14px 20px;
+            border: none;
+            text-align: center;
+
+            &:focus{
+                border: solid 2px #107acc;
+            }
+        }
+
+        span{
+            font-size: 10px;
+            font-weight: 500;
+            color: red;
+        }
+    }
+}
